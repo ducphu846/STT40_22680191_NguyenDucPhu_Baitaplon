@@ -1,0 +1,236 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Handmade Shop
+  </title>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #f7941d;
+        }
+        .navbar-brand img {
+            height: 50px;
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ffcc00 !important;
+        }
+        .breadcrumb {
+            background-color: white;
+        }
+        .sidebar {
+            border-right: 1px solid #ddd;
+            padding-right: 20px;
+        }
+        .sidebar .nav-link {
+            color: #333;
+        }
+        .sidebar .nav-link:hover {
+            color: #f7941d;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-card .product-title {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .product-card .product-price {
+            color: #f7941d;
+            font-weight: bold;
+        }
+        .filter-section {
+            margin-top: 20px;
+        }
+        .filter-section .filter-title {
+            font-weight: bold;
+        }
+        .filter-section .filter-options {
+            margin-top: 10px;
+        }
+        .filter-section .filter-options .form-check {
+            margin-bottom: 10px;
+        }
+  </style>
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+   <div class="container">
+    <a class="navbar-brand" href="#">
+     <img alt="Noli.vn Logo" height="50" src="../img/z6033236774747_c3c5648ef7bb9258170794b44d7001a0.jpg" width="100"/>
+    </a>
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+     <span class="navbar-toggler-icon">
+     </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+       <a class="nav-link" href="../html/trangchu.html">
+        Trang chủ
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="../html/lensoi.html">
+        Len sợi
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="../html/nguyenphulieu.html">
+        Nguyên phụ liệu
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="../html/sanpham.html">
+        Sản phẩm
+       </a>
+      </li>
+      
+     </ul>
+     <form class="d-flex">
+      <input aria-label="Search" class="form-control me-2" placeholder="Tìm kiếm sản phẩm..." type="search"/>
+      <button class="btn btn-outline-light" type="submit">
+       Tìm kiếm
+      </button>
+     </form>
+    </div>
+   </div>
+  </nav>
+  <div class="container mt-4">
+   <div class="row">
+    <div class="col-md-3 sidebar">
+     <h5>
+      Nguyên phụ liệu
+     </h5>
+     <nav class="nav flex-column">
+      <a class="nav-link" href="../html/trangchu.html">
+       Trang chủ
+      </a>
+      <a class="nav-link" href="../html/lensoi.html">
+       Len sợi
+      </a>
+      <a class="nav-link active" href="../html/nguyenphulieu.html">
+       Nguyên phụ liệu
+      </a>
+      <a class="nav-link" href="../html/sanpham.html">
+       Sản phẩm
+      </a>
+      
+     </nav>
+     <div class="filter-section">
+      <h6 class="filter-title">
+       Bộ lọc
+      </h6>
+      <div class="filter-options">
+       <div class="form-check">
+        <input class="form-check-input" id="filter1" type="checkbox" value=""/>
+        <label class="form-check-label" for="filter1">
+         Filter Option 1
+        </label>
+       </div>
+       <div class="form-check">
+        <input class="form-check-input" id="filter2" type="checkbox" value=""/>
+        <label class="form-check-label" for="filter2">
+         Filter Option 2
+        </label>
+       </div>
+       <div class="form-check">
+        <input class="form-check-input" id="filter3" type="checkbox" value=""/>
+        <label class="form-check-label" for="filter3">
+         Filter Option 3
+        </label>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-9">
+     <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+       <li class="breadcrumb-item">
+        <a href="../html/trangchu.html">
+         Trang chủ
+        </a>
+       </li>
+       <li aria-current="page" class="breadcrumb-item active">
+        Nguyên phụ liệu
+       </li>
+      </ol>
+     </nav>
+     <h4>
+      Nguyên phụ liệu - ĐiPi Handmade Shop
+     </h4>
+     <p>
+      ( Có tất cả 3 sản phẩm )
+     </p>
+     <div class="d-flex justify-content-between align-items-center mb-3">
+      <h5>
+       Nguyên phụ liệu
+      </h5>
+      <div>
+       <label class="form-label" for="sort">
+        Sắp xếp theo
+       </label>
+       <select class="form-select" id="sort">
+        <option selected="">
+         Chọn...
+        </option>
+        <option value="1">
+         Giá tăng dần
+        </option>
+        <option value="2">
+         Giá giảm dần
+        </option>
+        <option value="3">
+         Mới nhất
+        </option>
+       </select>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-4">
+       <div class="product-card">
+        <img alt="Combo vải nỉ, vải dạ 45 màu size 10x10cm" height="200" src="https://storage.googleapis.com/a1aa/image/CYp9FnbxBrZzJ1jPxye7MeaSbyt8xXu8efNH93BQWV4DBFwOB.jpg" width="200"/>
+        <p class="product-title">
+         Combo vải nỉ, vải dạ 45 màu size 10x10cm
+        </p>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="product-card">
+        <img alt="Kẽm xi làm hoa lá handmade 80cm (10 sợi)" height="200" src="https://storage.googleapis.com/a1aa/image/60PJ4V72GVJJKdKAqPryTeJ1TpbMAYb2V9aPj3fqmImPQBsTA.jpg" width="200"/>
+        <p class="product-title">
+         Kẽm xi làm hoa lá handmade 80cm (10 sợi)
+        </p>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="product-card">
+        <img alt="Móc khoá hoa chuông (1 cái)" height="200" src="https://storage.googleapis.com/a1aa/image/i5ygD6lN487CBRfko2AvbGr62MSymCZeMnYfmHpB5j5kgCYnA.jpg" width="200"/>
+        <p class="product-title">
+         Móc khoá hoa chuông (1 cái)
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script crossorigin="anonymous" integrity="sha384-oBqDVmMz4fnFO9gybBogGzOgQpeP8pgi04F2v9OHj2l30P6wVjK6GmK2X0k0zg8G" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js">
+  </script>
+ </body>
+</html>
